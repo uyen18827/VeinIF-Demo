@@ -2,3 +2,7 @@
 A short interactive fiction game made using VeinIF
 
 See it live here https://uyen18827.github.io/VeinIF-Demo/
+
+Made with VeinIF v0.0.1-alpha.1. Check out the VeinIF repo for the latest version of the framework. 
+
+A copy of the game is also included in the framework by default.
