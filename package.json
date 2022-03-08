@@ -4,11 +4,18 @@
   "description": "A demo game made using veinif",
   "main": "index.html",
   "scripts": {
+    "build": "vite build --base=/VeinIF-Demo/",
+    "deploy": "gh-pages -d dist",
+    "bdeploy": "npm run build && npm run deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Uyen Nguyen",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^3.2.3"
+  },
+  "homepage": "https://uyen18827.github.io/VeinIF-Demo/",
+  "dependencies": {
+    "vite": "^2.4.2"
   }
 }
